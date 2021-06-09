@@ -1,0 +1,58 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            bb:eb:ca:14:9e:f6:30:60:65:e7:af:45:c7:7b:eb:a9
+        Signature Algorithm: ecdsa-with-SHA512
+        Issuer: CN=fastiz
+        Validity
+            Not Before: Jun  9 23:31:52 2021 GMT
+            Not After : May 24 23:31:52 2024 GMT
+        Subject: CN=peio
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub:
+                    04:92:c1:d2:b1:87:58:27:38:75:a9:2f:93:74:dc:
+                    0c:91:1b:59:cb:c9:59:ee:0b:4f:59:1a:09:44:ff:
+                    2f:8a:86:d1:91:35:b2:17:6e:5c:2c:09:d5:7b:cc:
+                    59:48:8b:70:9d:fc:07:f8:e1:62:15:40:88:3d:49:
+                    91:44:41:15:d8:0c:5e:2e:af:c8:45:ab:46:23:05:
+                    ae:2d:f2:81:98:d8:69:37:59:9e:31:6c:2e:b7:a7:
+                    3d:2d:58:98:d2:c1:e6
+                ASN1 OID: secp384r1
+                NIST CURVE: P-384
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                60:ED:D3:27:0E:8D:2A:6D:A1:AB:C8:C8:DB:27:A8:E2:C4:85:98:96
+            X509v3 Authority Key Identifier: 
+                keyid:98:60:22:72:A3:63:0C:D1:35:7C:3F:B5:13:3C:56:8A:3D:33:30:B1
+                DirName:/CN=fastiz
+                serial:44:23:AC:84:9E:12:BE:00:12:FC:2C:03:32:8C:CF:71:92:91:8B:57
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: ecdsa-with-SHA512
+         30:66:02:31:00:94:b3:d5:b3:19:a6:00:d4:0e:46:e0:86:c5:
+         f8:bf:da:37:14:35:47:6b:e2:82:50:e4:40:3b:0b:ac:46:12:
+         8b:c2:9f:cf:48:32:ca:10:51:d5:96:4b:47:47:4c:eb:7f:02:
+         31:00:a6:72:90:26:d7:2b:e7:6a:38:d7:a5:be:e1:7b:b0:4d:
+         b3:9d:02:d8:72:19:e0:75:a2:0b:0d:26:5a:53:da:ba:14:fd:
+         8c:85:ca:61:64:e9:a2:65:38:31:e8:da:33:f9
+-----BEGIN CERTIFICATE-----
+MIIB+zCCAYCgAwIBAgIRALvryhSe9jBgZeevRcd766kwCgYIKoZIzj0EAwQwETEP
+MA0GA1UEAwwGZmFzdGl6MB4XDTIxMDYwOTIzMzE1MloXDTI0MDUyNDIzMzE1Mlow
+DzENMAsGA1UEAwwEcGVpbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABJLB0rGHWCc4
+dakvk3TcDJEbWcvJWe4LT1kaCUT/L4qG0ZE1shduXCwJ1XvMWUiLcJ38B/jhYhVA
+iD1JkURBFdgMXi6vyEWrRiMFri3ygZjYaTdZnjFsLrenPS1YmNLB5qOBnTCBmjAJ
+BgNVHRMEAjAAMB0GA1UdDgQWBBRg7dMnDo0qbaGryMjbJ6jixIWYljBMBgNVHSME
+RTBDgBSYYCJyo2MM0TV8P7UTPFaKPTMwsaEVpBMwETEPMA0GA1UEAwwGZmFzdGl6
+ghREI6yEnhK+ABL8LAMyjM9xkpGLVzATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNV
+HQ8EBAMCB4AwCgYIKoZIzj0EAwQDaQAwZgIxAJSz1bMZpgDUDkbghsX4v9o3FDVH
+a+KCUORAOwusRhKLwp/PSDLKEFHVlktHR0zrfwIxAKZykCbXK+dqONelvuF7sE2z
+nQLYchngdaILDSZaU9q6FP2MhcphZOmiZTgx6Noz+Q==
+-----END CERTIFICATE-----
