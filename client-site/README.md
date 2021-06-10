@@ -15,6 +15,6 @@ On the site router configure the following:
 On the host enable port forwarding:
 sudo echo 1 > /proc/sys/net/ipv4/ip_forward
 
-Then start the server ./run-server.sh <ip of the subnet>:
-  - The ip of the subnet is the address of the local network of the server for sharing with the client. 
+Then start the server ./run-server.sh IP_OF_THE_SUBNET:
+  - TIP_OF_THE_SUBNET - is the address of the local network of the server for sharing with the client. 
 
