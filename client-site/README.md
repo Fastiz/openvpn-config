@@ -1,10 +1,10 @@
+![image](https://user-images.githubusercontent.com/12635493/121478354-5223e800-c99f-11eb-9b2f-d989649492cd.png)
+
 ### Client
 
-Open config.conf inside client folder and update the following line to the public ip of the server's router and the port that is listening for openpvn (default 1194):
-remote 190.133.55.202 1194
-
-Then run to start the tunnel:
-sudo openvpn ./client/config.conf
+Execute ./run-client.sh IP CERT
+  - IP - is the public ip of the openvpn server
+  - CERT - is the name of the sample pair or cert, key to be used. Options are facu, peio and fer, and their passwords are respectively "facu", "messirve" and "titihenry".
 
 ### Server
 
@@ -13,11 +13,8 @@ On the site router configure the following:
 - create a static route for the subnet 10.8.0.0/24 to the host that runs the openvpn server
 
 On the host enable port forwarding:
-sudo echo 1 > /proc/sys/net/ipv4/ip_forward (on linux)
+sudo echo 1 > /proc/sys/net/ipv4/ip_forward
 
-Open config.conf inside server folder and change the following line to the ip and mask of the local subnet of the site:
-push "route 192.168.1.0 255.255.255.0"
-
-Then run to start the server:
-sudo openvpn ./server/config.conf
+Then start the server ./run-server.sh <ip of the subnet>:
+  - The ip of the subnet is the address of the local network of the server for sharing with the client. 
 
