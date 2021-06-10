@@ -18,3 +18,4 @@ sudo echo 1 > /proc/sys/net/ipv4/ip_forward
 Then start the server ./run-server.sh IP_OF_THE_SUBNET:
   - TIP_OF_THE_SUBNET - is the address of the local network of the server for sharing with the client. 
 
+Note: the cert password is 'facu'.
